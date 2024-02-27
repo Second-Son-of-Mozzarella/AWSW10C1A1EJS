@@ -13,7 +13,7 @@ import Col from 'react-bootstrap/Col';
 import './App.css';
 
 const App = () => {
-  const apiEndpoint = "https://medals-api-6.azurewebsites.net/api/country";
+  const apiEndpoint = "https://olympicmedalsbackend.azurewebsites.net/api/country";
   const [ countries, setCountries ] = useState([]);
   const medals = useRef([
     { id: 1, name: 'gold' },
